@@ -1,0 +1,13 @@
+repos:
+  - repo: https://github.com/ambv/black
+    rev: 22.6.0
+    hooks:
+      - id: black
+  - repo: local
+    hooks:
+      - id: ipynb-strip
+        name: ipynb-strip
+        language: system
+        files: \.ipynb$
+        entry: jupyter nbconvert --clear-output --ClearOutputPreprocessor.enabled=True
+        args: ["--log-level=ERROR"]
