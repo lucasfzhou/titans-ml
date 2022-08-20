@@ -110,3 +110,5 @@ cython_debug/
 # titans artifacts
 out/
 wandb/
+artifacts/
+
