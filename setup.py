@@ -20,6 +20,6 @@ setup(
     extras_require={
         "app": ["Flask", "gunicorn"],
         "dev": ["pre-commit"],
-        "research": ["tensorflow_datasets", "wandb"],
+        "research": ["jupyterlab", "tensorflow_datasets", "wandb"],
     },
 )
