@@ -1,6 +1,8 @@
 # titans
 Tool for the development and deployment of TensorFlow EfficientNet computer vision models.  
 
+NOTE: This is a recreation of the course project based on initial instructions, group project, and provided example solution.
+
 ## Installation
 ### 1. Create and Activate Virtual Environment
 Follow [this guide](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/) for any venv.  
